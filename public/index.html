@@ -1,0 +1,255 @@
+<!doctype html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="css/style.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Lexend:wght@100..900&display=swap"
+    rel="stylesheet">
+  <title>Hello</title>
+</head>
+
+<body class="scroll-smooth font-Inter  bg-no-repeat bg-[linear-gradient(170deg,_#1E1E20_0%,_#0E0E11_32%)]">
+  <div class="relative overflow-hidden">
+  <header class="md:h-[72px] md:p-0 px-[17px] py-3 w-full flex items-end ">
+    <nav class=" max-w-[1337.98px] md:px-6  w-full mx-auto h-12 flex justify-between items-center">
+      <a href="#"><img src="./images/logo.svg" alt="Logo"></a>
+
+      <ul id="menu" 
+        class="md:max-w-[267px] md:flex hidden  w-full md:h-full 
+        md:static absolute top-[67px] text-center left-0 z-[99] rounded-xl  backdrop-blur-xl md:py-0 py-5 
+        md:bg-[#ffffff14] md:bg-linear-0 bg-[linear-gradient(170deg,_#1E1E20_0%,_#0E0E11_32%)] md:shadow-none shadow-[inset_0_0_12px_rgba(255,255,255,0.2)] border-[rgba(255,255,255,0.08)]
+         bg md:rounded-4xl  items-center justify-evenly border-2 md:border-white/8 ">
+
+        <li class=" md:p-0 p-4 ">
+          <a href="#" class=" text-white text-xxsm font-medium">
+            Mintcord</a>
+        </li>
+        <li class=" md:p-0 p-4">
+          <a href="#" class=" text-white text-xxsm font-medium">
+            Docs</a>
+        </li>
+        <li class=" md:p-0 p-4">
+          <a href="#" class=" text-white text-xxsm font-medium">
+            Socials</a>
+        </li>
+      </ul>
+
+      <button
+        class="h-[38px] w-[70px]  md:flex hidden items-center justify-center rounded-4xl border-2 border-white/8 bg-white/8 text-white cursor-pointer transition-all font-semibold text-xxsm">
+        Socials
+      </button>
+      <!-- Hamburger Menu -->
+       <a onclick="myFunction()" class="md:hidden ">
+        <img 
+        class="h-6 invert opacity-70" src="./images/bars-solid.svg" alt="">
+       </a>
+    </nav>
+  </header>
+
+
+  <section class=" md:pt-[114px] pt-8 pb-[60px] md:pb-[130px] flex flex-col items-center justify-center relative bg-center z-1">
+    <div class="max-w-[600px] w-full mx-auto  flex flex-col md:gap-5 items-center justify-center text-center ">
+      <div data-aos="fade-up" data-aos-duration="700"
+        class="bg-white/8 border-[1px] border-white/8 rounded-2xl max-w-[103px]  w-full  h-6 flex items-center justify-center">
+        <a href="#" class="font-semibold text-[7px] text-white/50">
+          CA: TBA
+        </a>
+      </div>
+      <h1 data-aos="fade-up"
+      data-aos-duration="1000"
+        class="md:text-7xl text-4xl md:my-0 my-3.5 font-bold  md:tracking-[-0.2px] [background-image:linear-gradient(107deg,_#FFF_65%,_rgba(255,255,255,0.43)_100%)] bg-clip-text text-transparent">
+        Deploy faster Launch smarter
+      </h1>
+      <p  data-aos="fade-up"
+      data-aos-duration="1300"
+      class="text-gray-1 font-medium  text-[16px] md:text-xl md:mt-[23px] md:mb-4 mb-6 mx-3">
+        Launch tokens instantly — without leaving Discord.
+      </p>
+      <button data-aos="fade-up"
+      data-aos-duration="1400"
+        class="max-w-[206px] gap-1.5 rounded-4xl w-full h-12 border-[1px] border-white/8 bg-white/8 flex items-center justify-center cursor-pointer">
+        <img src="./images/sheild.svg" alt="Shield">
+        <h1 class="text-white  font-semibold text-sm">
+          Launch from Discord
+        </h1>
+      </button>
+    </div>
+    <div class="relative md:max-w-[1088px] max-w-[400px]  w-full mx-auto md:p-0 p-[9px] md:mt-0 mt-14">
+      <div data-aos="fade-up"
+      data-aos-duration="1600"
+       class=" flex flex-col  items-center justify-center">
+        <img class="absolute md:left-20 left-10 -z-10 md:-top-12 -top-3 md:h-auto h-16" src="./images/planet1.png" alt="planet1">
+        <img class=" h-full w-full " src="./images/menu.png" alt="Menu">
+        <img class="right-3 md:h-16 md:w-16 h-10 md:top-40 top-10 z-10 absolute" src="./images/planet2.png" alt="planet2">
+
+
+        <ul class="max-w-[384px] w-full mx-auto md:mt-9 mt-12 flex items-center justify-center md:gap-12 gap-5">
+          <li class="bg-bggray-1 md:h-[60px] h-9 md:w-[60px] w-9 rounded-full  flex items-center justify-center">
+            <a href="#">
+              <img  class="md:w-full w-4"
+              src="./images/twitter.svg" alt="twitter">
+            </a>
+          </li>
+          <li class="bg-bggray-1 md:h-[60px] h-9 md:w-[60px] w-9 rounded-full  flex items-center justify-center">
+            <a href="#">
+              <img  class="md:w-full w-4"
+               src="./images/instagram.svg" alt="instagram">
+            </a>
+          </li>
+          <li class="bg-bggray-1 md:h-[60px] h-9 md:w-[60px] w-9 rounded-full  flex items-center justify-center">
+            <a href="#">
+              <img  class="md:w-full w-4"
+               src="./images/Vector.svg" alt="Vector">
+            </a>
+          </li>
+          <li class="bg-bggray-1 md:h-[60px] h-9 md:w-[60px] w-9 rounded-full  flex items-center justify-center">
+            <a href="#">
+              <img   class="md:w-full w-4"
+              src="./images/eagle.svg" alt="eagle">
+            </a>
+          </li>
+        </ul>
+      </div>
+    </div>
+    <img class="absolute left-0 right-0 -z-1 mx-auto text-center bottom-7" 
+    src="./images/planet-img.png"
+     alt="">
+  </section>
+
+  <section class="">
+    <div class="max-w-[690px] w-full mx-auto flex flex-col items-center justify-center">
+      <div class="text-center ">
+        <h1  data-aos="fade-up"
+        data-aos-duration="700"
+          class="md:mb-4 mb-3 md:text-[68px] text-[28px]  font-bold [background-image:linear-gradient(107deg,_#FFF_65%,_rgba(255,255,255,0.43)_100%)] bg-clip-text text-transparent">
+          How to Use Mintcord
+        </h1>
+        <p  data-aos="fade-up"
+        data-aos-duration="1000"
+        class="text-gray-1 mb-8 font-medium text-lg ">
+          How to Deploy Your Token in Seconds
+        </p>
+      </div>
+      <button data-aos="fade-up"
+      data-aos-duration="1300"
+        class="max-w-[206px] gap-1.5 rounded-4xl w-full h-12 border-[1px] border-white/8 bg-white/8 flex items-center justify-center">
+        <img src="./images/sheild.svg" alt="Shield">
+        <h1
+          class="[background-image:linear-gradient(107deg,_#FFF_65%,_rgba(255,255,255,0.43)_100%)] bg-clip-text text-transparent  font-semibold text-sm">
+          Launch from Discord
+        </h1>
+      </button>
+    </div>
+
+    <div class=" max-w-[1073px] xl:p-0 px-6 w-full mx-auto">
+      <div data-aos="fade-up"
+      data-aos-duration="1200">
+        <img class="w-full mt-7 " src="./images/shadow.png" alt="shadow">
+      </div>
+      <div data-aos="fade-up"
+      data-aos-duration="1300"
+      class="bg-[url(../images/card-bg.png)] bg-no-repeat bg-cover bg-center
+        md:grid grid-cols-[6fr_6fr] xl:gap-5 -mt-1 w-full bg-[#1D1C20] border-[1px] border-[#ffffff14] md:p-0 pt-8 pr-6 pb-0 pl-6 rounded-3xl">
+        <div  data-aos="fade-up"
+        data-aos-duration="700" 
+        class=" w-full flex flex-col  lg:p-10 md:p-6">
+          <div>
+            <h1 class="text-white text-lg font-bold lg:mb-10 mb-5">
+              How to Launch with MintCord
+            </h1>
+            <ol class="list-decimal text-white lg:mb-10 ml-3 text-xxsm font-extrabold">
+              <li class="lg:mb-6 mb-3">Join the Discord server 📥</li>
+              <li class="lg:mb-6 mb-3">Type the command: /pf name ticker description image🧾</li>
+              <li class="lg:mb-6 mb-3">Done. Mint on Pump.fun 💡</li>
+              <li class="lg:mb-6 mb-3">Share it. Build your token's future 🚀</li>
+            </ol>
+          </div>
+
+          <div
+            class=" flex items-center justify-between rounded-[80px]   bg-white/10 border-[1px] border-white/8 h-12  w-full">
+            <div class="flex items-center justify-center gap-1.5 pl-5">
+              <img src="./images/sheild.svg" alt="Shield">
+              <input class="placeholder:text-xxsm placeholder:font-medium placeholder:text-gray-2 w-full" type="text"
+                placeholder="/pf name ticker description image">
+            </div>
+            <button
+              class="max-w-[89px] w-full h-9  font-semibold text-xxsm bg-[url(../images/link.svg)] bg-center bg-cover bg-no-repeat flex items-center justify-center">
+              <p
+                class="bg-clip-text text-transparent [background-image:linear-gradient(180deg,_#fff_65%,_rgba(255,255,255,0.43)_100%)]">
+                Discord
+              </p>
+            </button>
+          </div>
+        </div>
+
+        <div data-aos="fade-up"
+        data-aos-duration="1300"
+         class="mt-10 w-full md:px-5 xl:px-0">
+          <img class=" h-full max-w-full" src="./images/mintcard-img.png" alt="Menu">
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="max-w-[800px] text-center md:pt-[180px] md:pb-24 py-[60px]  px-5 w-full mx-auto flex  flex-col items-center justify-center ">
+    <div class="" data-aos="fade-up"
+    data-aos-duration="1000">
+      <img class="max-w-full h-auto" 
+      src="./images/shield2.png" alt="shield2">
+      <h1  data-aos="fade-up"
+      data-aos-duration="1300"
+        class="[background-image:linear-gradient(107deg,_#FFF_65%,_rgba(255,255,255,0.43)_100%)] bg-clip-text text-transparent  font-bold md:text-[69px] text-[40px] md:-mt-16 -mt-7 relative -z-10">
+        MintCord
+      </h1>
+    </div>
+    <p  data-aos="fade-up"
+    data-aos-duration="1500"
+    class="text-lg font-medium text-gray-2 mt-6 mb-8">
+      Deploy tokens in seconds.
+      Built for degens, by degens.
+    </p>
+    <div data-aos="fade-up"
+    data-aos-duration="1600"
+     class="flex items-center justify-center gap-8">
+      <button
+        class="text-white h-12 rounded-4xl w-[130px] border-[1px] border-white/8 bg-white/8 cursor-pointer font-semibold text-[11.2px]">
+        Launch on Discord
+      </button>
+      <button
+        class="text-white h-12 rounded-4xl w-[130px] border-[1px] border-white/8 bg-white/8 cursor-pointer font-semibold text-[11.2px]">
+        Socials
+      </button>
+    </div>
+    <p data-aos="fade-up"
+    data-aos-duration="1600" 
+    class="text-gray-2 font-medium text-xxsm mt-6 mb-8 hidden md:block">
+      🎯 Mint in 5s. <br /> Secure by default. Powered by Pump.fun.
+    </p>
+  </section>
+  <div class="absolute top-0 w-full   left-0 right-0 text-center -z-10 [mix-blend-mode:color-dodge]">
+    <img class="w-full " src="./images/stars.png" alt="">
+  </div>
+</div>
+ 
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+         AOS.init(
+            {
+                offset: 100,
+                duration: 1000,
+            }
+        );
+    function myFunction(){
+      const element = document.getElementById('menu');
+    element.classList.toggle("hidden");
+    }
+  </script>
+</body>
+
+</html>
